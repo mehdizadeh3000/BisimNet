@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BisimNet: preconfigured server. Fill in the host to have it added on first run. -->
+<resources>
+    <string name="bisimnet_server_name" translatable="false">BisimNet</string>
+    <string name="bisimnet_server_host" translatable="false"></string>
+    <string name="bisimnet_server_port" translatable="false">64738</string>
+</resources>
