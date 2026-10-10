@@ -19,7 +19,7 @@ jobs:
           yes | "$SDKM" --licenses > /dev/null || true
           "$SDKM" --install "platforms;android-36" "ndk;25.1.8937393"
       - name: Fetch native audio libraries
-        run: ./setup-native-deps.sh
+        run: bash setup-native-deps.sh
       - name: Build debug APK
         run: chmod +x gradlew && ./gradlew assembleFossDebug --stacktrace
       - uses: actions/upload-artifact@v4
